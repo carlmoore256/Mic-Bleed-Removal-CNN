@@ -173,7 +173,7 @@ def validate_transients(x, y, sr=44100, visualize_rejects=False):
     visualize_audio_data(rejects_x, rejects_y, sr=sample_rate) #see what is rejected
 
   return x_valid, y_valid
-
+`
 def visualize_audio_data(data_x, data_y, sr=44100):
   for x, y in zip(data_x, data_y):
     print('x data:')
